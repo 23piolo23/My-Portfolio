@@ -35,7 +35,7 @@ body {
 
 /* Styling for the welcome section */
 #welcome-section {
-    height: 100vh; /* Full viewport height */
+    height: 80vh; /* Full viewport height */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,11 +47,15 @@ body {
     font-size: 2.5rem;
     color: #333;
 }
-
 /* Styling for the projects section */
 #projects {
     padding: 20px;
     background: #fff;
+        height: 80vh; /* Full viewport height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
 }
 
 .project-tile {
@@ -90,6 +94,23 @@ footer {
     text-decoration: underline;
 }
 
+/*Styling for the about*/
+#about {
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    color: #333;
+    display: flex;
+    text-align: center;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     #navbar nav a {
@@ -104,4 +125,5 @@ footer {
     .project-tile {
         padding: 10px;
     }
+
 }
